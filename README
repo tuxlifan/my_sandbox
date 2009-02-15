@@ -22,3 +22,10 @@ file:
     remote.<nickname>.fetch = <refspec>
 
 Soooooo..... I probably should return to that HOWTO...
+
+....searching....
+finall, http://snippets.dzone.com/posts/show/5714 has the answer:
+git config branch.master.remote origin
+git config branch.master.merge refs/heads/master
+and I'm almost happy now :-)
+
